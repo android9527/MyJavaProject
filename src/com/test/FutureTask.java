@@ -19,20 +19,18 @@ public class FutureTask {
         }
 
     }
+    private static class RunFuture implements Runnable {
+        int i = 0;
 
-}
+        @Override
+        public void run() {
+            while (i < 100000 && !Thread.currentThread().isInterrupted()/**/) {
 
-class RunFuture implements Runnable {
-    int i = 0;
+                System.out.println("i++:" + i);
+                i++;
+            }
 
-    @Override
-    public void run() {
-        while (i < 100000 && !Thread.currentThread().isInterrupted()/**/) {
-
-            System.out.println("i++:" + i);
-            i++;
         }
 
     }
-
 }

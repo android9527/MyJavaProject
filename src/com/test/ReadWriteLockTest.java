@@ -30,46 +30,44 @@ public class ReadWriteLockTest {
             }).start();
         }
     }
+    // 数据源
+    private static class Data {
+        private static String name = "hello";
+        ReadWriteLock rwl = new ReentrantReadWriteLock();
 
-}
+        public String get() {
+            rwl.readLock().lock();
+            System.out.println(Thread.currentThread().getName() + "--读取数据前：");
 
-// 数据源
-class Data {
-    private static String name = "hello";
-    ReadWriteLock rwl = new ReentrantReadWriteLock();
-
-    public String get() {
-        rwl.readLock().lock();
-        System.out.println(Thread.currentThread().getName() + "--读取数据前：");
-
-        try {
             try {
-                Thread.sleep(3000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+                try {
+                    Thread.sleep(3000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                return name;
+            } finally {
+                System.out.println(Thread.currentThread().getName() + "--已经读取完");
+                rwl.readLock().unlock();
             }
-            return name;
-        } finally {
-            System.out.println(Thread.currentThread().getName() + "--已经读取完");
-            rwl.readLock().unlock();
+
         }
 
-    }
-
-    public void set(String name) {
-        rwl.writeLock().lock();
-        try {
-            System.out.println(Thread.currentThread().getName() + ">写入数据前");
+        public void set(String name) {
+            rwl.writeLock().lock();
             try {
-                Thread.sleep(3000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+                System.out.println(Thread.currentThread().getName() + ">写入数据前");
+                try {
+                    Thread.sleep(3000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                this.name = name;
+                System.out.println(Thread.currentThread().getName() + ">写完数据");
+            } finally {
+                rwl.writeLock().unlock();
             }
-            this.name = name;
-            System.out.println(Thread.currentThread().getName() + ">写完数据");
-        } finally {
-            rwl.writeLock().unlock();
-        }
 
+        }
     }
 }
