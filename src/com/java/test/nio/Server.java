@@ -32,6 +32,7 @@ public class Server {
 
             ssc.configureBlocking(false); //设置为非阻塞模式
             ssc.register(selector, SelectionKey.OP_ACCEPT); //注册关心的事件，对于Server来说主要是accpet了
+            ssc.register(selector, SelectionKey.OP_ACCEPT); //注册关心的事件，对于Server来说主要是accpet了
 
             while (true) {
                 int n = selector.select(); //获取感兴趣的selector数量

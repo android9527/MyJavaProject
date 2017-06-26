@@ -1,0 +1,9 @@
+[INFO] output of locale.getdefaultlocale(): ('zh_CN', 'UTF-8')
+[INFO] encoding we chose in the end: UTF-8
+[INFO] Running command /Users/chenfeiyue/Downloads/infer-osx-v0.9.4.1/infer/bin/../lib/python/infer.py --analyzer infer -j 8 --project-root /Users/chenfeiyue/Work/MyJavaProject/src/com/test/serializable --out /Users/chenfeiyue/Work/MyJavaProject/src/com/test/serializable/infer-out -- javac SerializableTest.java
+[INFO] Path to infer script /Users/chenfeiyue/Downloads/infer-osx-v0.9.4.1/infer/bin/../lib/python/infer.py (/Users/chenfeiyue/Downloads/infer-osx-v0.9.4.1/infer/lib/python/infer.py)
+[INFO] Platform: Darwin-15.6.0-x86_64-i386-64bit
+[INFO] PATH=/Users/chenfeiyue/.nvm/versions/node/v6.2.0/bin:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home:/Users/chenfeiyue/Documents/Android/jad158g.mac.intel:/Users/chenfeiyue/Downloads/appcrawler-1.1.2/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/chenfeiyue/Documents/Android/android-sdk-macosx/platform-tools:/Users/chenfeiyue/Documents/Android/android-ndk-r10b:/Volumes/android.5.0/android.5.0/bin:/Users/chenfeiyue/bin:/Users/chenfeiyue/bin/repo:/Users/chenfeiyue/Documents/Android/gradle-2.13/bin:/usr/local/go/bin:/Users/chenfeiyue/Downloads/infer-osx-v0.9.4.1/infer/bin/:/Users/chenfeiyue/Work/gowork/bin
+[INFO] SHELL=/bin/zsh
+[INFO] PWD=/Users/chenfeiyue/Work/MyJavaProject/src/com/test/serializable
+[ERROR] Error during capture phase, exiting

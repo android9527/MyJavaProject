@@ -1,0 +1,1 @@
+Failed to execute: /Users/chenfeiyue/Downloads/infer-osx-v0.9.4.1/infer/bin/../lib/python/infer.py --analyzer infer -j 8 --project-root /Users/chenfeiyue/Work/MyJavaProject/src/com/test/serializable --out /Users/chenfeiyue/Work/MyJavaProject/src/com/test/serializable/infer-out -- javac SerializableTest.java

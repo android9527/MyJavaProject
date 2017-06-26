@@ -29,8 +29,8 @@ public class SocketClientUtil extends Thread {
         java.lang.System.setProperty("java.net.preferIPv6Addresses", "false");
     }
 
-    private static String ip = "127.0.0.2";
-    private static int port = 9527;
+    private static String ip = "192.168.1.216";
+    private static int port = 8080;
     private ConnectListener connectListener;
 
     private enum ENUM_CONNECT {
@@ -158,7 +158,7 @@ public class SocketClientUtil extends Thread {
                 if (connectListener != null)
                     connectListener.connect(ENUM_CONNECT.STATUS_OK);
                 System.out.println("连接成功");
-                writeBuf("我是客户端".getBytes());
+                writeBuf("GET /servlet/GetAvgDataServlet HTTP/1.1\r\nHost: 192.168.2.3\r\nConnection: close\r\n\r\n".getBytes());
             } else {
                 // 关闭通道过60S重新开始连接
                 if (connectListener != null)

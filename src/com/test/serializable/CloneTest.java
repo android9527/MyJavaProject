@@ -7,7 +7,7 @@ public class CloneTest {
 		p1.test = "p1";
 		p1.p = new People();
 		p1.p.setName("CloneablePeople1");
-		p1.p.setAge(11);
+//		p1.p.setAge(11);
 		
 		System.err.println(p1);
 		CloneablePeople p2 = p1.clone();
@@ -16,7 +16,7 @@ public class CloneTest {
 		
 //		p1.p = new People();
 		p1.p.setName("CloneablePeople2");
-		p1.p.setAge(22);
+//		p1.p.setAge(22);
 		System.err.println(p2);
 	}
 	

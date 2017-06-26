@@ -21,12 +21,15 @@ public class Calculator extends RecursiveTask<Integer> {
                 sum += i;
             }
         } else {
-            int middle = (start + end) / 2;
+            int middle = (start + end) / 3;
+            System.out.println(middle);
             Calculator left = new Calculator(start, middle);
-            Calculator right = new Calculator(middle + 1, end);
+            Calculator mid = new Calculator(middle, middle * 2);
+            Calculator right = new Calculator(middle * 2 + 1, end);
             left.fork();
+            mid.fork();
             right.fork();
-            sum = left.join() + right.join();
+            sum = left.join() + mid.join() + right.join();
             System.out.println("-------->" + sum);
         }
 
