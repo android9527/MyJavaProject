@@ -1,15 +1,15 @@
 package com.protobuf;// See README.txt for information and build instructions.
 
+import com.protobuf.AddressBookProtos.AddressBook;
+import com.protobuf.AddressBookProtos.Person;
+
 import java.io.BufferedReader;
-import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.InputStreamReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.PrintStream;
-import com.protobuf.AddressBookProtos.Person;
-import com.protobuf.AddressBookProtos.AddressBook;
 
 
 class AddPerson {
@@ -62,30 +62,48 @@ class AddPerson {
   //   adds one person based on user input, then writes it back out to the same
   //   file.
   public static void main(String[] args) throws Exception {
+      System.out.println(HttpTools.queryStringForGet("https://mobile.yinke.com/app/index"));
 
-      Person john =
-              Person.newBuilder()
-                      .setId(1234)
-                      .setName("John Doe")
-                      .setEmail("jdoe@example.com")
-                      .addPhones(
-                              Person.PhoneNumber.newBuilder()
-                                      .setNumber("555-4321")
-                                      .setType(Person.PhoneType.HOME))
-                      .build();
+//      Person john =
+//              Person.newBuilder()
+//                      .setId(1234)
+//                      .setName("John Doe")
+//                      .setEmail("jdoe@example.com")
+//                      .addPhones(
+//                              Person.PhoneNumber.newBuilder()
+//                                      .setNumber("555-4321")
+//                                      .setType(Person.PhoneType.HOME))
+//                      .build();
+//      System.err.println(john.toString());
+//
+//
+//      FileOutputStream outputStream = new FileOutputStream("111.txt");
+//      john.writeTo(outputStream);
+//
+//
+//      FileInputStream inputStream = new FileInputStream("111.txt");
+//      Person p = Person.parseFrom(inputStream);
+//      System.err.println("--------->" +p.getId());
+//      System.err.println(p.toString());
+
+
+//      ByteArrayOutputStream stream = new ByteArrayOutputStream();
+//      john.writeTo(stream);
+//
+//      Person p1 = Person.parseFrom(stream.toByteArray());
+//      System.err.println("--------->" +p1.getId());
+//      System.err.println(p1.toString());
+
+
+      Person john = Person.newBuilder()
+              .setId(1234)
+              .setName("John Doe")
+              .setEmail("jdoe@example.com")
+              .addPhones(Person.PhoneNumber.newBuilder()
+                      .setNumber("555-4321").setType(Person.PhoneType.HOME)).build();
       System.err.println(john.toString());
-
-
       FileOutputStream outputStream = new FileOutputStream("111.txt");
       john.writeTo(outputStream);
-
-      ByteArrayOutputStream stream = new ByteArrayOutputStream();
-      john.writeTo(stream);
-
-
-      Person p = Person.parseFrom(stream.toByteArray());
-      System.err.println("--------->" +p.getId());
-      System.err.println(p.toString());
 
       if (args.length != 1) {
       System.err.println("Usage:  AddPerson ADDRESS_BOOK_FILE");
