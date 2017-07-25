@@ -7,7 +7,7 @@ import java.util.concurrent.Future;
 public class FutureTask {
 
     public static void main(String[] args) {
-        ExecutorService eService = Executors.newFixedThreadPool(5);
+        ExecutorService eService = Executors.newFixedThreadPool(2);
         Future<?> future = eService.submit(new RunFuture());
         try {
             Thread.sleep(100);

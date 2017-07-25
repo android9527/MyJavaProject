@@ -15,7 +15,7 @@ public class ThreadPoolTask implements Runnable, Serializable {
 
         System.out.println("开始执行任务：" + attachData);
         try {
-            Thread.sleep(15000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

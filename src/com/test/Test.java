@@ -150,8 +150,8 @@ public class Test {
         // 构造一个线程池
 
 
-		ThreadPoolExecutor threadPool = new ThreadPoolExecutor(3, 10, 60, TimeUnit.SECONDS,
-		          new ArrayBlockingQueue<Runnable>(5));
+		ThreadPoolExecutor threadPool = new ThreadPoolExecutor(1, 10, 60, TimeUnit.SECONDS,
+		          new SynchronousQueue<>());
 //		ThreadPoolExecutor threadPool = new ThreadPoolExecutor(2, 10, 5, TimeUnit.SECONDS, new ArrayBlockingQueue<Runnable>(3),
 //				new ThreadPoolExecutor.DiscardOldestPolicy());
 
@@ -159,7 +159,7 @@ public class Test {
 //        ExecutorService threadPool = Executors.newFixedThreadPool(3);
 
 
-        for (int i = 1; i <= 25; i++) {
+        for (int i = 1; i <= 2; i++) {
             try {
                 String task = "task@ " + i;
                 System.out.println("创建任务并提交到线程池中：" + task);
@@ -169,6 +169,29 @@ public class Test {
                 e.printStackTrace();
             }
         }
+
+
+
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+
+        threadPool.submit(new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("开始执行任务：new new ");
+                try {
+                    Thread.sleep(5000);
+                } catch (InterruptedException e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            }
+        });
 
     }
 
