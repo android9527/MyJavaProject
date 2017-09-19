@@ -2,6 +2,9 @@ package com.okhttp;
 
 import java.io.IOException;
 
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.Dispatcher;
 import okhttp3.FormBody;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
@@ -24,9 +27,44 @@ public class PostExample1 {
         Request request = new Request.Builder()
                 .url(url)
                 .post(body)
+                .tag("userid")
                 .build();
-        try (Response response = client.newCall(request).execute()) {
-            return response.body().string();
+
+        Call call = client.newCall(request);
+
+        call.enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+
+            }
+
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+
+            }
+        });
+//        call.cancel();
+        cancelAll("userid");
+        return "";
+
+//        try (Response response = client.newCall(request).execute()) {
+//            return response.body().string();
+//        }
+    }
+
+    public void cancelAll(Object tag){
+        Dispatcher dispatcher = client.dispatcher();
+        synchronized (dispatcher){
+            for (Call call : dispatcher.queuedCalls()) {
+                if (call != null && tag.equals(call.request().tag())) {
+                    call.cancel();
+                }
+            }
+            for (Call call : dispatcher.runningCalls()) {
+                if (call != null && tag.equals(call.request().tag())) {
+                    call.cancel();
+                }
+            }
         }
     }
 
@@ -50,6 +88,5 @@ public class PostExample1 {
         String response = example.post
                 ("http://ykapptest2.jiandollar.net/app/userCenter/getUserAccountStatus", request.getBytes());
 
-        System.out.println(response);
     }
 }

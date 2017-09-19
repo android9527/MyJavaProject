@@ -12,7 +12,7 @@ public class ThreadTest {
 
         final Object object = new Object();
 
-        new Thread() {
+        Thread thread = new Thread() {
 
             @Override
             public void run() {
@@ -28,7 +28,10 @@ public class ThreadTest {
                 }
                 super.run();
             }
-        }.start();
+        };
+
+
+        thread.start();
 
         new Thread() {
 

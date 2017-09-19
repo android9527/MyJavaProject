@@ -36,7 +36,41 @@ public class ATest {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        ThreadTest thread1 = new ThreadTest();
+        thread1.start();
+
+
+        try {
+            thread1.join();
+            ThreadTest thread2 = new ThreadTest();
+            thread2.start();
+            thread2.join();
+            ThreadTest thread3 = new ThreadTest();
+            thread3.start();
+            thread3.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
     }
+
+    static class ThreadTest extends Thread{
+        @Override
+        public void run() {
+            super.run();
+
+            try {
+                Thread.sleep(5000L);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            System.out.println(getName() + System.currentTimeMillis());
+        }
+    }
+
+
 
     class DataTime {
         private String datetime;
