@@ -3,9 +3,7 @@ package com.okhttp;
 import java.io.IOException;
 
 import okhttp3.Call;
-import okhttp3.Callback;
 import okhttp3.Dispatcher;
-import okhttp3.FormBody;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -32,29 +30,29 @@ public class PostExample1 {
 
         Call call = client.newCall(request);
 
-        call.enqueue(new Callback() {
-            @Override
-            public void onFailure(Call call, IOException e) {
-
-            }
-
-            @Override
-            public void onResponse(Call call, Response response) throws IOException {
-
-            }
-        });
+//        call.enqueue(new Callback() {
+//            @Override
+//            public void onFailure(Call call, IOException e) {
+//
+//            }
+//
+//            @Override
+//            public void onResponse(Call call, Response response) throws IOException {
+//
+//            }
+//        });
 //        call.cancel();
-        cancelAll("userid");
-        return "";
+//        cancelAll("userid");
+//        return "";
 
-//        try (Response response = client.newCall(request).execute()) {
-//            return response.body().string();
-//        }
+        try (Response response = client.newCall(request).execute()) {
+            return response.body().string();
+        }
     }
 
-    public void cancelAll(Object tag){
+    public void cancelAll(Object tag) {
         Dispatcher dispatcher = client.dispatcher();
-        synchronized (dispatcher){
+        synchronized (dispatcher) {
             for (Call call : dispatcher.queuedCalls()) {
                 if (call != null && tag.equals(call.request().tag())) {
                     call.cancel();
@@ -84,9 +82,9 @@ public class PostExample1 {
         PostExample1 example = new PostExample1();
         String json = example.bowlingJson("Jesse", "Jake");
 //        String response = example.post("http://www.roundsapp.com/post", json);
-        String request = "userid=1943447976&token=4223464EA73E2FFEB486FBB31ABB9533";
-        String response = example.post
-                ("http://ykapptest2.jiandollar.net/app/userCenter/getUserAccountStatus", request.getBytes());
-
+        String request = "userId=1001322&token=32AC59DB52DB9627ED57A4B47307983E&ext=jpg";
+        String response = example.post("https://mobile.caifuxq.com/app/personalProfile/uploadPortrait",
+                request.getBytes());
+        System.out.println(response);
     }
 }

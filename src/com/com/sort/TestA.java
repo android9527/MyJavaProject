@@ -1,5 +1,8 @@
 package com.com.sort;
 
+import java.text.DateFormat;
+import java.util.Locale;
+
 /**
  * Created by chenfeiyue on 16/12/12.
  */
@@ -46,8 +49,24 @@ class TestB extends TestA {
     public static void main(String ar[]) {
 //        TestA.a();
 //        TestA a = new TestA();
-        TestA b = new TestB();
+//        TestA b = new TestB();
 
 
+        Long date = 1510121580000L;
+        DateFormat dateFormat = DateFormat.getDateInstance();
+        System.out.println(dateFormat.format(date) + " " + dateFormat.toString());
+        dateFormat = DateFormat.getDateInstance();
+        System.out.println(dateFormat.format(date) + " " + dateFormat.toString());
+
+        dateFormat = DateFormat.getDateTimeInstance();
+        System.out.println(dateFormat.format(date));
+        dateFormat = DateFormat.getDateInstance(DateFormat.FULL);
+        System.out.println(dateFormat.format(date) + " " + dateFormat.toString());
+        dateFormat = DateFormat.getDateInstance(DateFormat.FULL);
+        System.out.println(dateFormat.format(date) + " " + dateFormat.toString());
+        dateFormat = DateFormat.getDateTimeInstance(DateFormat.FULL, DateFormat.FULL);
+        System.out.println(dateFormat.format(date));
+        dateFormat = DateFormat.getDateTimeInstance(DateFormat.MEDIUM, DateFormat.MEDIUM, Locale.CHINESE);
+        System.out.println(dateFormat.format(date));
     }
 }
