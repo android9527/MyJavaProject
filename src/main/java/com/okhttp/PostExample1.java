@@ -82,8 +82,8 @@ public class PostExample1 {
         PostExample1 example = new PostExample1();
         String json = example.bowlingJson("Jesse", "Jake");
 //        String response = example.post("http://www.roundsapp.com/post", json);
-        String request = "userId=1001322&token=32AC59DB52DB9627ED57A4B47307983E&ext=jpg";
-        String response = example.post("https://mobile.caifuxq.com/app/personalProfile/uploadPortrait",
+        String request = json;
+        String response = example.post("http://localhost:8080/Test1/servlet/PostPmServlet",
                 request.getBytes());
         System.out.println(response);
     }

@@ -53,12 +53,7 @@ class TestB extends TestA {
 
 
         Long date = 1510121580000L;
-        DateFormat dateFormat = DateFormat.getDateInstance();
-        System.out.println(dateFormat.format(date) + " " + dateFormat.toString());
-        dateFormat = DateFormat.getDateInstance();
-        System.out.println(dateFormat.format(date) + " " + dateFormat.toString());
-
-        dateFormat = DateFormat.getDateTimeInstance();
+        DateFormat dateFormat = DateFormat.getDateTimeInstance();
         System.out.println(dateFormat.format(date));
         dateFormat = DateFormat.getDateInstance(DateFormat.FULL);
         System.out.println(dateFormat.format(date) + " " + dateFormat.toString());

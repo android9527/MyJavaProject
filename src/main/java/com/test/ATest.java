@@ -91,5 +91,13 @@ public class ATest {
         public void setSuggestDatetime(String suggestDatetime) {
             this.suggestDatetime = suggestDatetime;
         }
+
+        @Override
+        public String toString() {
+            return "DataTime{" +
+                    "datetime='" + datetime + '\'' +
+                    ", suggestDatetime='" + suggestDatetime + '\'' +
+                    '}';
+        }
     }
 }
