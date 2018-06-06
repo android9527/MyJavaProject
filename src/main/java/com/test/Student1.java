@@ -6,7 +6,10 @@ public class Student1 extends Student {
         System.out.println("static  ======= son  ");
     }
 
-
+    public static void main(String[] args) {
+        Student1 student1 = new Student1("", 18);
+        System.out.println(student1);
+    }
     public Student1(String name, int age) {
         super(name, age);
 

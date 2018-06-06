@@ -5,6 +5,13 @@ package com.test.test;
  * Description:
  */
 public class Student {
+    public Student(String name) {
+
+    }
+    public Student() {
+
+    }
+
     private int age;
     private String name;
 
@@ -26,7 +33,7 @@ public class Student {
 
     @Override
     public boolean equals(Object o) {
-       return true;
+        return true;
     }
 
     @Override

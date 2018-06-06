@@ -121,14 +121,13 @@ public class HttpUtils {
      *
      * @param host
      * @param path
-     * @param method
      * @param headers
      * @param querys
      * @param body
      * @return
      * @throws Exception
      */
-    public static HttpResponse doPost(String host, String path, String method,
+    public static HttpResponse doPost(String host, String path,
                                       Map<String, String> headers,
                                       Map<String, String> querys,
                                       String body)
@@ -152,14 +151,13 @@ public class HttpUtils {
      *
      * @param host
      * @param path
-     * @param method
      * @param headers
      * @param querys
      * @param body
      * @return
      * @throws Exception
      */
-    public static HttpResponse doPost(String host, String path, String method,
+    public static HttpResponse doPost(String host, String path,
                                       Map<String, String> headers,
                                       Map<String, String> querys,
                                       byte[] body)

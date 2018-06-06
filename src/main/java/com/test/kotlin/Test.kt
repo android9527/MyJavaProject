@@ -11,7 +11,7 @@ import java.util.concurrent.locks.ReentrantLock
 object Test {
 
 }
-class C {
+open class C {
     fun foo() { println("member") }
 }
 

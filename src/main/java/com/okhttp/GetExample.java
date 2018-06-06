@@ -1,31 +1,33 @@
 package com.okhttp;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.security.KeyStore;
-import java.security.SecureRandom;
-import java.security.cert.CertificateFactory;
-import java.util.concurrent.TimeUnit;
+import java.security.cert.CertificateException;
+import java.security.cert.X509Certificate;
+import java.util.HashMap;
+import java.util.Map;
 
-import javax.net.ssl.SSLContext;
-import javax.net.ssl.SSLSocketFactory;
-import javax.net.ssl.TrustManagerFactory;
+import javax.net.ssl.X509TrustManager;
 
-import okhttp3.Call;
-import okhttp3.Callback;
-import okhttp3.OkHttpClient;
+import okhttp3.Headers;
 import okhttp3.Request;
 import okhttp3.Response;
+import okhttp3.ResponseBody;
+
+import static com.okhttp.ExtensionKt.getResponseHeader;
 
 public class GetExample {
-    static OkHttpClient client = new OkHttpClient();
 
     void run(String url) throws IOException {
+
+        Map<String, String> map = new HashMap<>();
+        map.put("Accept-Encoding", "gzip");
+        map.put("session", "sessionvalue");
+        map.put("name", "value");
+
         Request request = new Request.Builder()
                 .url(url)
-                .addHeader("Accept-Encoding", "gzip")
+//                .addHeader("Accept-Encoding", "gzip")
+                .headers(Headers.of(map))
                 .build();
 
         try {
@@ -46,78 +48,48 @@ public class GetExample {
             e.printStackTrace();
         }
 
-        Response response = client.newCall(request).execute();
+        Response response = OkHttp3util.getOkHttpClient().newCall(request).execute();
+        getResponseHeader(response.headers().toMultimap());
+        ResponseBody responseBody = response.body();
         byte[] result = response.body().bytes();
+        System.out.println("----result.length-------" + result.length);
         try {
+            String s = null;
             if (YKGZipUtils.isGZipData(result)) {
-                String s = new String(YKGZipUtils.gzipUncompress(result));
-                System.out.println("-----------\n"+s);
+                s = new String(YKGZipUtils.gzipUncompress(result), "UTF-8");
+                System.out.println("-----------\n" + s);
+            } else {
+                s = new String(result);
             }
-        }catch (Exception e){
+            System.out.println("-----------\n" + s);
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
     public static void main(String[] args) throws IOException {
-        InputStream inputStream = new FileInputStream(new File("srca.cer"));
-        client = setCertificates(inputStream);
-        GetExample example = new GetExample();
-        example.run("https://kyfw.12306.cn/otn/");
-//        System.out.println(response);
+        OkHttp3util.initClient();
+        new GetExample().run("https://www.baidu.com");
     }
 
 
-    public static OkHttpClient setCertificates(InputStream... certificates) {
-        try {
-            CertificateFactory certificateFactory = CertificateFactory.getInstance("X.509");
-            KeyStore keyStore = KeyStore.getInstance(KeyStore.getDefaultType());
-            keyStore.load(null);
-            int index = 0;
-            for (InputStream certificate : certificates) {
-                String certificateAlias = Integer.toString(index++);
-                keyStore.setCertificateEntry(certificateAlias, certificateFactory.generateCertificate(certificate));
-
-                try {
-                    if (certificate != null)
-                        certificate.close();
-                } catch (IOException e) {
-                }
-            }
-
-            SSLContext sslContext = SSLContext.getInstance("TLS");
-
-            TrustManagerFactory trustManagerFactory =
-                    TrustManagerFactory.getInstance(TrustManagerFactory.getDefaultAlgorithm());
-
-            trustManagerFactory.init(keyStore);
-            sslContext.init
-                    (
-                            null,
-                            trustManagerFactory.getTrustManagers(),
-                            new SecureRandom()
-                    );
-            OkHttpClient.Builder builder = new OkHttpClient.Builder()
-                    .connectTimeout(20 * 1000, TimeUnit.MILLISECONDS)
-                    .readTimeout(20 * 1000, TimeUnit.MILLISECONDS);
-//            sslContext.init(new KeyManager[0], xtmArray, new SecureRandom());
-            SSLSocketFactory socketFactory = sslContext.getSocketFactory();
-            builder.sslSocketFactory(socketFactory);
-            OkHttpClient client;
-            HttpLoggingInterceptor.Level level = /*ConstValue.DEBUG_MODE ? HttpLoggingInterceptor.Level.HEADERS : */HttpLoggingInterceptor.Level.BODY;
-
-            HttpLoggingInterceptor loggingInterceptor = new HttpLoggingInterceptor(new MyLogger()).setLevel(level);
-
-            builder.addInterceptor(loggingInterceptor);    // log
-//            builder.cookieJar(new OkHttpCookieJar());
-            client = builder.build();
-            return client;
-        } catch (Exception e) {
-            e.printStackTrace();
+    private static class UnSafeTrustManager implements X509TrustManager {
+        @Override
+        public void checkClientTrusted(X509Certificate[] chain, String authType) throws CertificateException {
         }
-        return null;
-    }
 
+        @Override
+        public void checkServerTrusted(X509Certificate[] chain, String authType) throws CertificateException {
+        }
+
+        @Override
+        public X509Certificate[] getAcceptedIssuers() {
+            return new X509Certificate[]{};
+        }
+    }
 }
+
+
 class MyLogger implements HttpLoggingInterceptor.Logger {
 
     @SuppressWarnings("HardCodedStringLiteral")

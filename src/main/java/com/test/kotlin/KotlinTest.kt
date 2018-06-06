@@ -14,7 +14,6 @@ fun test(a: Int, b : Double = 0.1, s : String = "str", flag : Boolean) {
 }
 
 interface MyInterface {
-    
     val str: String
         get() = "String"
     val prop: Int // 抽象的,需要子类重写

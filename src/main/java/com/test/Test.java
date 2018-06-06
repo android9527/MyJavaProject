@@ -10,6 +10,8 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.SynchronousQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 public class Test {
@@ -106,8 +108,35 @@ public class Test {
 //		
 //		
 //		
-        initThreadPool();
+//        initThreadPool();
 
+
+//        String request = null;
+//        StringBuilder builder = new StringBuilder(request);
+//        System.out.println(builder.toString());
+
+
+        isValidPassword("123456");
+        isValidPassword("abc456");
+        isValidPassword("abcdef");
+        isValidPassword("123456abc");
+        isValidPassword("123456abc");
+        isValidPassword(".12345T");
+        isValidPassword("T1234");
+        isValidPassword("T12345");
+        isValidPassword("a11111");
+
+    }
+
+    public static void isValidPassword(CharSequence password) {
+//        String regex = "^(?=.*[a-zA-Z])(?=.*[0-9])[a-zA-Z0-9]{6,16}$";
+        String regex = "^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,16}$";
+        Matcher matcher = Pattern.compile(regex).matcher(password);
+        if ( matcher.matches()) {
+            System.out.println("Password Enable");
+        }else {
+            System.out.println("Password UnEnable");
+        }
     }
 
     static int test() {

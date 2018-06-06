@@ -1,7 +1,9 @@
 package com.test;
 
+import org.apache.http.util.TextUtils;
+
 public class Student {
-    String name;
+    protected String name;
     int age;
 
     static {
@@ -27,6 +29,9 @@ public class Student {
 
     @Override
     public String toString() {
+        if (TextUtils.isEmpty(name)) {
+            return "";
+        }
         System.out.println(11111111);
         return "Student [name=" + name + ", age=" + age + "]";
     }

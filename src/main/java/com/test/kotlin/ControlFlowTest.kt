@@ -6,7 +6,8 @@ package com.test.kotlin
  */
 class ControlFlowTest {
     companion object {
-        @JvmStatic fun main(args: Array<String>) {
+        @JvmStatic
+        fun main(args: Array<String>) {
             testWhen()
             testFor()
         }
@@ -14,11 +15,19 @@ class ControlFlowTest {
 }
 
 fun testIf() {
-    val a: Int = 1
-    val b: Int = 1
+    var a: Int = 1
+    var b: Int = 1
     var max = if (a > b) a else b
-    if (a > b)
-        max = a
+
+
+    max =
+            if (a > b) {
+                println()
+                a
+            } else {
+                println()
+                b
+            }
 }
 
 fun testWhen() {

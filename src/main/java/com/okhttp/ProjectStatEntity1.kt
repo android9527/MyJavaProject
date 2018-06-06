@@ -1,16 +1,17 @@
 package main.java.com.okhttp
 
-import com.google.gson.Gson
+import com.google.gson.FieldNamingPolicy
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonObject
 import java.io.IOException
 import java.text.DateFormat
+import java.util.*
 
 /**
  * Created by chenfeiyue on 17/8/25.
  * Description ：自动投标详情
  */
-class ProjectStatEntity {
+class ProjectStatEntity1 {
 
     /**
      * {
@@ -46,8 +47,8 @@ class ProjectStatEntity {
     }
 
     companion object {
-        @JvmStatic fun build(): ProjectStatEntity {
-            val entity = ProjectStatEntity()
+        @JvmStatic fun build(): ProjectStatEntity1 {
+            val entity = ProjectStatEntity1()
 //            val authData = ContentHandler.getInstance().authData
 //            if (authData != null) {
 //                entity.userId = authData.userId
@@ -64,7 +65,7 @@ class ProjectStatEntity {
             return entity
         }
 
-        @JvmStatic fun build(eventType: String, extraParams: Map<String, Any>?): ProjectStatEntity {
+        @JvmStatic fun build(eventType: String, extraParams: Map<String, Any>?): ProjectStatEntity1 {
             val entity = build()
             entity.eventType = eventType
             entity.setExtraParams(extraParams)
@@ -80,9 +81,12 @@ class ProjectStatEntity {
             val bookB = RedBagInfo(2L, "21", 3)
             val list = listOf<RedBagInfo>(bookA, bookB)
             params.put("redBagInfo", bookA.toJSONObject())
-            val jsonObject1 = Gson().toJson(entity)
+            val jsonObject1 = GsonBuilder().setDateFormat("yyyy-MM-dd HH:mm:ss")
+                    .setFieldNamingPolicy(FieldNamingPolicy.IDENTITY)
+                    .create().toJson(entity)
             val jsonObject2 = GsonBuilder().create().toJson(entity)
             System.out.println(jsonObject1)
+            var strings = ArrayList<String>()
             System.out.println(jsonObject2)
         }
 

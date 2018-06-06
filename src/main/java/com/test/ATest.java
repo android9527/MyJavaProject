@@ -2,6 +2,8 @@ package com.test;
 
 import com.google.gson.Gson;
 
+import java.text.DateFormat;
+import java.util.ArrayList;
 import java.util.concurrent.ArrayBlockingQueue;
 
 /**
@@ -9,6 +11,7 @@ import java.util.concurrent.ArrayBlockingQueue;
  */
 public class ATest {
     public static void main(String args[]) {
+
         System.out.println(3 >> 1);
         System.out.println(-1 >>> 1);
 
@@ -75,6 +78,8 @@ public class ATest {
     class DataTime {
         private String datetime;
         private String suggestDatetime;
+
+        ArrayList<String> strings = new ArrayList<>();
 
         public String getDatetime() {
             return datetime;

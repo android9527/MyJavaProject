@@ -8,12 +8,11 @@ import org.apache.http.client.CookieStore;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
-import org.apache.http.conn.ssl.AllowAllHostnameVerifier;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.params.BasicHttpParams;
@@ -25,11 +24,16 @@ import org.apache.http.util.EntityUtils;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
-import static com.java.test.nio.HttpUtils.sslHttpClient;
 import static com.java.test.nio.HttpUtils.wrapClient;
 
 public class HttpTools {
+    private static RequestConfig requestConfig = RequestConfig.custom()
+            .setSocketTimeout(15000)
+            .setConnectTimeout(15000)
+            .setConnectionRequestTimeout(15000)
+            .build();
 
     public static String getReultForHttpPost(String url)
             throws ClientProtocolException, IOException {
@@ -58,14 +62,14 @@ public class HttpTools {
     public static HttpGet getHttpGet(String url) {
         HttpGet request = new HttpGet(url);
         String userAgent = "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36";
-        request.setHeader("User-Agent",userAgent);
+        request.setHeader("User-Agent", userAgent);
         return request;
     }
 
     public static HttpPost getHttpPost(String url) {
         HttpPost request = new HttpPost(url);
-        String userAgent = "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36";
-        request.setHeader("User-Agent",userAgent);
+//        String userAgent = "Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36";
+//        request.setHeader("User-Agent", userAgent);
         return request;
     }
 
@@ -109,9 +113,69 @@ public class HttpTools {
         return response;
     }
 
-    public static String queryStringForPost(String url) throws Exception {
+    public static byte[] queryStringForPost(String url) throws Exception {
         HttpPost request = getHttpPost(url);
-        return queryStringForPost(request);
+//        return queryStringForPost(request);
+        return sendHttpPost(request);
+    }
+
+    /**
+     * 发送 post请求
+     *
+     * @param httpUrl 地址
+     * @param maps    参数
+     */
+    public static byte[] sendHttpPost(String httpUrl, Map<String, String> maps) {
+        HttpPost httpPost = new HttpPost(httpUrl);// 创建httpPost
+        // 创建参数队列
+        List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
+        for (String key : maps.keySet()) {
+            nameValuePairs.add(new BasicNameValuePair(key, maps.get(key)));
+        }
+        try {
+            httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs, "UTF-8"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return sendHttpPost(httpPost);
+    }
+
+    /**
+     * 发送Post请求
+     *
+     * @param httpPost
+     * @return
+     */
+    private static byte[] sendHttpPost(HttpPost httpPost) {
+        CloseableHttpClient httpClient = null;
+        CloseableHttpResponse response = null;
+        HttpEntity entity = null;
+        byte[] responseContent = null;
+        try {
+            // 创建默认的httpClient实例.
+            httpClient = HttpClients.createDefault();
+            httpPost.setConfig(requestConfig);
+            // 执行请求
+            response = httpClient.execute(httpPost);
+            entity = response.getEntity();
+            responseContent = EntityUtils.toByteArray(entity);
+            // responseContent = EntityUtils.toString(entity, "UTF-8");  //如果需要返回字符串改这里就行了
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                // 关闭连接,释放资源
+                if (response != null) {
+                    response.close();
+                }
+                if (httpClient != null) {
+                    httpClient.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return responseContent;
     }
 
     public static String queryStringForPost(HttpPost request) throws Exception {
