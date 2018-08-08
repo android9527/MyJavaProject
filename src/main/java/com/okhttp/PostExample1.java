@@ -1,5 +1,7 @@
 package com.okhttp;
 
+import com.protobuf.HttpTools;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -183,18 +185,19 @@ public class PostExample1 {
 //        }
 //
 //
-//        try {
-//            String body = "regularId=957&userId=1943447976&token=D37C6AA318CA0857E365B72627180EB8&platform=Android&version=4.0.5.1&deviceInfo=Nexus5_6.0.1";
-//            String url = "http://10.104.51.100:8084/app/v2/finance/regular/buyDetail?";
-//            byte[] data = HttpTools.queryStringForPost(url + body);
-//            System.out.println("-----------\n"+ new String(data));
-//            if (YKGZipUtils.isGZipData(data)) {
-//                String s = new String(YKGZipUtils.gzipUncompress(data), "UTF-8");
-//                System.out.println("-----------\n"+s);
-//            }
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
+        try {
+            String body = "userId=&token=&platform=Android&version=4.0.5.1&deviceInfo=Nexus5_6.0.1";
+//            String url = "http://10.104.51.77:18080/app/appCommonConfig";
+            String url = "http://ykapptest2.jiandollar.net/app/appCommonConfig?";
+            byte[] data = HttpTools.queryStringForPost(url + body);
+            System.out.println("-----------\n"+ new String(data));
+            if (YKGZipUtils.isGZipData(data)) {
+                String s = new String(YKGZipUtils.gzipUncompress(data), "UTF-8");
+                System.out.println("-----------\n"+s);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
 //        String result = "114,101,103,117,108,97,114,73,100,61,57,50,53,38,99,97,109,112,97,105,103,110,115,73,100,61,38,98,117,121,65,109,111,110,117,116,61,50,48,48,48,48,46,48,38,117,115,101,114,73,100,61,49,48,54,57,54,52,55,38,116,111,107,101,110,61,56,70,48,50,70,48,69,57,55,48,48,69,57,56,49,69,51,53,57,51,70,56,70,69,57,49,68,66,55,70,69,70,38,112,108,97,116,102,111,114,109,61,65,110,100,114,111,105,100,38,118,101,114,115,105,111,110,61,52,46,48,46,51,38,100,101,118,105,99,101,73,110,102,111,61,72,85,65,87,69,73,82,73,79,45,85,76,48,48,124,53,46,49";
 //        String[] bytes = result.split(",");
@@ -204,7 +207,7 @@ public class PostExample1 {
 //            bytess[i] = Byte.parseByte(bytes[i]);
 //        }
 //        System.out.println(new String(bytess, "UTF-8"));
-        getPublicKey();
+//        getPublicKey();
     }
 
    static void getPublicKey() {

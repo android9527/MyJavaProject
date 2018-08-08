@@ -1,7 +1,5 @@
 package com.okhttp;
 
-import com.okhttp.HttpLoggingInterceptor;
-import com.okhttp.YKTLSSocketFactory;
 
 import java.io.IOException;
 import java.security.cert.CertificateException;
@@ -63,10 +61,10 @@ public class OkHttp3util {
 //                }
 //            };
 
-            builder.connectionSpecs(Collections.singletonList(spec))
-                    .sslSocketFactory(socketFactory, getTrustManager());
+//            builder.connectionSpecs(Collections.singletonList(spec))
+//                    .sslSocketFactory(socketFactory, new UnSafeTrustManager());
 
-
+            builder.sslSocketFactory(socketFactory, new UnSafeTrustManager() );
 //            ConnectionSpec spec = new ConnectionSpec.Builder(ConnectionSpec.MODERN_TLS)
 //                    .tlsVersions(TlsVersion.TLS_1_1)
 //                    .cipherSuites(

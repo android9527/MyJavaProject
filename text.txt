@@ -1,0 +1,1376 @@
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发
+本周周报（7.2-7.6）
+
+1、4.0.5版本发布4.0.6缺陷修复
+2、验证手势修改和设置手势密码修改
+3、整理项目删除无用导入，修改部分单例Context leak
+4、AutoScrollViewPager Handler reference leaks 修改为静态内部类
+5、删除部分未使用图片资源及layout、drawable资源等
+6、修改ImageUtil为静态工具类
+7、修改部分重复调用代码，如获取屏幕宽高等，不用每次都获取，统一使用
+8、增加WebView视频全屏支持，返回按键处理
+9、tinker插件依赖修改，区分Debug版本和Release版本
+
+下周工作计划：
+1、4.0.6版本上线
+2、线上bug跟踪
+3、版本迭代开发

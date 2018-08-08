@@ -17,7 +17,7 @@ import static com.okhttp.ExtensionKt.getResponseHeader;
 
 public class GetExample {
 
-    void run(String url) throws IOException {
+    public void run(String url) throws IOException {
 
         Map<String, String> map = new HashMap<>();
         map.put("Accept-Encoding", "gzip");
@@ -25,7 +25,7 @@ public class GetExample {
         map.put("name", "value");
 
         Request request = new Request.Builder()
-                .url(url)
+                .url("http://ykapptest2.jiandollar.net/app/appCommonConfig?userId=1943447976&token=4232C8B763AA1BBF38523C80BE095BAC&platform=Android&version=4.0.5.2&deviceInfo=Nexus5_6.0.1")
 //                .addHeader("Accept-Encoding", "gzip")
                 .headers(Headers.of(map))
                 .build();

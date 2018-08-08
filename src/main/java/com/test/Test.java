@@ -107,24 +107,26 @@ public class Test {
 //		thread.interrupt();
 //		
 //		
-//		
-//        initThreadPool();
+//
+
+        SynchronousQueue queue = new SynchronousQueue();
+        initThreadPool();
 
 
 //        String request = null;
 //        StringBuilder builder = new StringBuilder(request);
 //        System.out.println(builder.toString());
 
-
-        isValidPassword("123456");
-        isValidPassword("abc456");
-        isValidPassword("abcdef");
-        isValidPassword("123456abc");
-        isValidPassword("123456abc");
-        isValidPassword(".12345T");
-        isValidPassword("T1234");
-        isValidPassword("T12345");
-        isValidPassword("a11111");
+//
+//        isValidPassword("123456");
+//        isValidPassword("abc456");
+//        isValidPassword("abcdef");
+//        isValidPassword("123456abc");
+//        isValidPassword("123456abc");
+//        isValidPassword(".12345T");
+//        isValidPassword("T1234");
+//        isValidPassword("T12345");
+//        isValidPassword("a11111");
 
     }
 
@@ -179,8 +181,9 @@ public class Test {
         // 构造一个线程池
 
 
-		ThreadPoolExecutor threadPool = new ThreadPoolExecutor(1, 10, 60, TimeUnit.SECONDS,
-		          new SynchronousQueue<>());
+		ThreadPoolExecutor threadPool = new ThreadPoolExecutor(1, 10, 30, TimeUnit.SECONDS,
+		          new ArrayBlockingQueue<Runnable>(1));
+        threadPool.allowCoreThreadTimeOut(false);
 //		ThreadPoolExecutor threadPool = new ThreadPoolExecutor(2, 10, 5, TimeUnit.SECONDS, new ArrayBlockingQueue<Runnable>(3),
 //				new ThreadPoolExecutor.DiscardOldestPolicy());
 
@@ -188,11 +191,12 @@ public class Test {
 //        ExecutorService threadPool = Executors.newFixedThreadPool(3);
 
 
-        for (int i = 1; i <= 2; i++) {
+        for (int i = 1; i <= 3; i++) {
             try {
                 String task = "task@ " + i;
-                System.out.println("创建任务并提交到线程池中：" + task);
+                System.out.println("创建任务并提交到线程池中：" + task + "   " + System.currentTimeMillis());
                 Future f = threadPool.submit(new ThreadPoolTask(task));
+
 //				f.cancel(true);
             } catch (Exception e) {
                 e.printStackTrace();
@@ -200,27 +204,26 @@ public class Test {
         }
 
 
+//        try {
+//            Thread.sleep(5000);
+//        } catch (InterruptedException e) {
+//            // TODO Auto-generated catch block
+//            e.printStackTrace();
+//        }
 
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
 
-
-        threadPool.submit(new Runnable() {
-            @Override
-            public void run() {
-                System.out.println("开始执行任务：new new ");
-                try {
-                    Thread.sleep(5000);
-                } catch (InterruptedException e) {
-                    // TODO Auto-generated catch block
-                    e.printStackTrace();
-                }
-            }
-        });
+//        threadPool.submit(new Runnable() {
+//            @Override
+//            public void run() {
+//                System.out.println("开始执行任务：new new "  + "   " + System.currentTimeMillis());
+//                try {
+//                    Thread.sleep(5000);
+//                } catch (InterruptedException e) {
+//                    // TODO Auto-generated catch block
+//                    e.printStackTrace();
+//                }
+//            }
+//        });
 
     }
 

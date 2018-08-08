@@ -51,10 +51,11 @@ public class YKTLSSocketFactory extends SSLSocketFactory {
 
     public static SSLSocketFactory getSslSocketFactory() {
         try {
-            TrustManager[] trustManagers = new TrustManager[] {getTrustManagers() };
-            KeyManager[] keyManagers = getKeyManagers();
+//            TrustManager[] trustManagers = new TrustManager[] {getTrustManagers() };
+            TrustManager[] trustManagers = new TrustManager[] { new UnSafeTrustManager() };
+//            KeyManager[] keyManagers = getKeyManagers();
             SSLContext sslContext = SSLContext.getInstance("TLS");
-            sslContext.init(keyManagers, trustManagers, new SecureRandom());
+            sslContext.init(null, trustManagers, new SecureRandom());
             return sslContext.getSocketFactory();
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
