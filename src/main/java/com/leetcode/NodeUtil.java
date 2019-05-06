@@ -129,7 +129,7 @@ class LinkedList {
      *
      * @param data node  要删除的结点
      */
-    public boolean deleteNodeByData(int data) {
+    public <T> boolean deleteNodeByData(T data) {
 
         // 删除头部结点
         if (head == null) {
@@ -156,11 +156,11 @@ class LinkedList {
     }
 }
 
-class Node {
+class Node<T> {
     Node next;
-    int data;
+    T data;
 
-    public Node(int data) {
+    public Node(T data) {
         this.data = data;
     }
 
