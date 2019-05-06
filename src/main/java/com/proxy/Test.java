@@ -25,9 +25,11 @@ public class Test {
 
 
         UserService service = new UserServiceImpl();
+
         //生成被代理类的接口的子类
         UserService proxyObj = (UserService) Proxy.newProxyInstance(LogProxy.class.getClassLoader(), service.getClass().getInterfaces(),
                 new LogProxy(service));
+
         proxyObj.addUser("abel");
         proxyObj.remove("name");
     }

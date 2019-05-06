@@ -31,12 +31,21 @@ public class AA {
 //            e.printStackTrace();
 //        }
 
-        Integer a= 3;
-        Integer b= 3;
-        Integer c= 273;
-        Integer d= 273;
-        System.out.println(a == b);
+        String a = "1";
+        String d = a + "1";
+        System.out.println(d);
+        String b = a + "2";
+        System.out.println(b);
+
+        String c = "11";
         System.out.println(d == c);
+        System.out.println(d.equalsIgnoreCase(c));
+//        Integer a= 3;
+//        Integer b= 3;
+//        Integer c= 273;
+//        Integer d= 273;
+//        System.out.println(a == b);
+//        System.out.println(d == c);
 
     }
 

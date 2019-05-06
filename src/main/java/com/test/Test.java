@@ -1,12 +1,13 @@
 package com.test;
 
-import java.io.UnsupportedEncodingException;
+import com.google.common.base.Strings;
+import com.test.test.Child;
+import com.test.test.Parent;
+
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.Executor;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
-import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.SynchronousQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
@@ -20,6 +21,22 @@ public class Test {
         System.out.println("static  ======= Test  ");
     }
 
+    public static String replacesUrl(String src, String... replaces)
+    {
+        if (!Strings.isNullOrEmpty(src) && replaces != null)
+        {
+            for (String replace : replaces)
+            {
+                if (!Strings.isNullOrEmpty(replace))
+                {
+                    src = src.replaceFirst("[{].*?[}]", replace);
+                }
+            }
+        }
+
+        return src;
+    }
+
     /**
      * @param args
      * @Author chenfeiyue
@@ -28,6 +45,52 @@ public class Test {
      */
     public static void main(String[] args) {
 
+        ArrayList<Child> children = new ArrayList<>();
+        Child child = new Child();
+        children.add(child);
+
+        child = new Child();
+        children.add(child);
+        System.out.println(children.size());
+
+
+        System.out.println(true);
+
+
+//        String a = "xiaoming";
+//        String b = "xiaoming2";
+//        final String c= "xiaoming";
+//
+//        String d = a + "2";
+//        String e = c + "2";
+//        System.out.println(b == d);
+//        System.out.println(b == e);
+//
+//
+//
+//
+//        Student student = new Student();
+//        List<Student> list = new ArrayList<>();
+//        list.add(student);
+//        list.add(student);
+//        list.add(student);
+//        list.add(student);
+//        list.add(student);
+//        System.out.println("------" + list.size());
+//        Student student6 = new Student("zhangsan", 10);
+//        list.add(6, student6);
+//        System.out.println(list.size());
+
+
+//        test();
+//        String[] strings = new String[10];
+//        System.out.println(strings[0]);
+//        System.out.println(strings.length);
+//
+//        String baseUrl = "http://ppsvc.pptv.com/topic/page/{page}/size/{size}.htm";
+//        String url = replacesUrl(baseUrl, "1", "3");
+//        System.out.println(url);
+
 
 //		byte[] a = new byte[]{ (byte)0x30,(byte)0x31,(byte)0x32,(byte)0x33,(byte)0x34,(byte)0x35};
 //		String sssss;
@@ -35,7 +98,6 @@ public class Test {
 //			sssss = new String(a, "GBK");
 //			System.out.println(sssss);
 //		} catch (UnsupportedEncodingException e) {
-//			// TODO Auto-generated catch block
 //			e.printStackTrace();
 //		}
 //		
@@ -109,8 +171,8 @@ public class Test {
 //		
 //
 
-        SynchronousQueue queue = new SynchronousQueue();
-        initThreadPool();
+//        SynchronousQueue queue = new SynchronousQueue();
+//        initThreadPool();
 
 
 //        String request = null;
@@ -141,16 +203,16 @@ public class Test {
         }
     }
 
-    static int test() {
-        int x = 1;
-        try {
-            System.out.println(x);
-            return x;
-        } finally {
-            ++x;
-            System.out.println(x);
-        }
-    }
+//    static int test() {
+//        int x = 1;
+//        try {
+//            System.out.println(x);
+//            return x;
+//        } finally {
+//            ++x;
+//            System.out.println(x);
+//        }
+//    }
 
 
     @SuppressWarnings("finally")
@@ -227,5 +289,23 @@ public class Test {
 
     }
 
+
+    private static void test() {
+        try {
+            unsafe();
+            System.out.println("111111");
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println(22222);
+        }
+        finally {
+            System.out.println(33333);
+        }
+        System.out.println(4444);
+    }
+
+    private static void unsafe() throws Exception {
+        throw new Exception();
+    }
 
 }
