@@ -1,4 +1,4 @@
-package com.test.leetcode;
+package com.leetcode;
 
 /**
  * Created by chenfeiyue on 2018/8/10.

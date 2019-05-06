@@ -1,4 +1,4 @@
-package com.test.leetcode;
+package com.leetcode;
 
 import java.lang.ref.PhantomReference;
 import java.lang.ref.Reference;
