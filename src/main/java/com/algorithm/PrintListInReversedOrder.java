@@ -12,6 +12,7 @@ public class PrintListInReversedOrder {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
         Node head = createLinkedList(list);
+        printListRevers(head);
     }
 
     /**
@@ -29,6 +30,25 @@ public class PrintListInReversedOrder {
         Node headOfSublist = createLinkedList(list.subList(1, list.size()));
         firstNode.setNext(headOfSublist);
         return firstNode;
+    }
+
+    private static void printListRevers(Node head) {
+        if (head == null) {
+            return;
+        }
+
+        Node node = head;
+        Stack<Integer> stack = new Stack<>();
+        // 把链表数据加入栈
+        while (node != null) {
+            stack.push(node.getData());
+            node = node.getNext();
+        }
+
+        while (!stack.isEmpty()) {
+            Integer integer = stack.pop();
+            System.out.println(integer);
+        }
     }
 
     public static class Node {
