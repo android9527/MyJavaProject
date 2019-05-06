@@ -12,11 +12,13 @@ public class PrintListInReversedOrder {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
         Node head = createLinkedList(list);
-        printListRevers(head);
+//        printListRevers(head);
+        printListReversed(head);
     }
 
     /**
      * 数组创建链表
+     *
      * @param list
      * @return
      */
@@ -32,6 +34,11 @@ public class PrintListInReversedOrder {
         return firstNode;
     }
 
+    /**
+     * stack 的方式实现链表逆向打印
+     *
+     * @param head head
+     */
     private static void printListRevers(Node head) {
         if (head == null) {
             return;
@@ -49,6 +56,21 @@ public class PrintListInReversedOrder {
             Integer integer = stack.pop();
             System.out.println(integer);
         }
+    }
+
+
+    /**
+     * 递归方式实现链表逆向打印
+     * @param head head
+     */
+    private static void printListReversed(Node head) {
+        if (head == null) {
+            return;
+        }
+        if (head.getNext() != null) {
+            printListReversed(head.getNext());
+        }
+        System.out.println(head.getData());
     }
 
     public static class Node {
