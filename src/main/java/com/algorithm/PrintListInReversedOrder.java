@@ -9,11 +9,54 @@ import java.util.Stack;
  * Description:
  */
 public class PrintListInReversedOrder {
+    final static Object object = new Object();
+
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5);
         Node head = createLinkedList(list);
 //        printListRevers(head);
         printListReversed(head);
+
+        testSleep();
+    }
+
+    private static void testSleep() {
+        Thread sleepThread = new Thread() {
+            @Override
+            public void run() {
+                super.run();
+                synchronized (object) {
+                    try {
+                        System.out.println("start sleep");
+                        Thread.sleep(5000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println("end sleep");
+                }
+            }
+        };
+        Thread thread = new Thread() {
+            @Override
+            public void run() {
+                super.run();
+                synchronized (object) {
+
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    sleepThread.interrupt();
+                    System.out.println("--thread run-------------" + System.currentTimeMillis());
+                }
+            }
+        };
+        thread.start();
+
+        sleepThread.start();
+
+        System.out.println("---------------");
     }
 
     /**
@@ -61,6 +104,7 @@ public class PrintListInReversedOrder {
 
     /**
      * 递归方式实现链表逆向打印
+     *
      * @param head head
      */
     private static void printListReversed(Node head) {

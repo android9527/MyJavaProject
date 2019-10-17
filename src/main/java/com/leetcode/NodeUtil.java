@@ -8,7 +8,7 @@ public class NodeUtil {
 
     public static void main(String[] args) {
 
-        LinkedList linkedList = new LinkedList();
+        MyLinkedList linkedList = new MyLinkedList();
         linkedList.add(3);
         linkedList.add(0);
         linkedList.add(1);
@@ -34,7 +34,7 @@ public class NodeUtil {
     }
 }
 
-class LinkedList {
+class MyLinkedList {
 
     Node head;
 

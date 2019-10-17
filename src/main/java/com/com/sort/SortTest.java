@@ -12,14 +12,13 @@ public class SortTest {
         // TODO Auto-generated method stub
         Integer[] a = {49, 38, 98, 97, 76, 13, 27, 49};
 
-//		bubbleSort(a);
+        //bubbleSort(a);
 
-//		selectSort(a);
+        //selectSort(a);
 
         insertSort(a);
-
-
         System.out.println("查找 " + 98 + "   " + binarySearch(a, 98));
+        System.out.println("查找 " + 98 + "   " + binarySearch2(a, 13));
     }
 
     /**
@@ -142,11 +141,9 @@ public class SortTest {
         int right = a.length - 1;
         while (left <= right) {
             int middle = (left + right) / 2;
-
             if (des == a[middle]) {
                 return middle;
             }
-
             if (des < a[middle]) {
                 right = middle - 1;
             } else if (des > a[middle]) {
@@ -156,4 +153,22 @@ public class SortTest {
 
         return -1;
     }
+
+    static int binarySearch2(Integer[] array, int target) {
+        int left = 0;
+        int right = array.length - 1;
+        while (left <= right) {
+            int mid = (left + right) / 2;
+            if (array[mid] == target) {
+                return mid;
+            }
+            if (array[mid] < target) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
+        return -1;
+    }
+
 }
